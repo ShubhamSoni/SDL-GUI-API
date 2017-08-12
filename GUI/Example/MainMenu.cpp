@@ -28,7 +28,7 @@ MainMenu* MainMenu::GetInstance()
 
 MainMenu::~MainMenu()
 {
-	Page::~Page();
+	
 }
 
 void MainMenu::Load()

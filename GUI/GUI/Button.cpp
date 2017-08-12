@@ -36,7 +36,7 @@ Button::~Button()
 	SDL_DestroyTexture(downTexture);
 	SDL_DestroyTexture(hoverTexture);
 
-	Element::~Element();
+	//Element::~Element();
 }
 
 void Button::AddLabel(const std::string &_text, TTF_Font* _font, SDL_Color _color, bool center)

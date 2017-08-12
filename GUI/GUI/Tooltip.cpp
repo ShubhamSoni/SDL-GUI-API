@@ -12,7 +12,7 @@ Tooltip::~Tooltip()
 {
 	delete &bgTexture;
 
-	Label::~Label();
+	//Label::~Label();
 }
 
 void Tooltip::Update(double _time)

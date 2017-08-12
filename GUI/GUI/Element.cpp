@@ -41,7 +41,7 @@ Element::~Element() {
 	}
 	delete &flip;
 
-	GuiObject::~GuiObject();
+	/*GuiObject::~GuiObject();*/
 }
 
 

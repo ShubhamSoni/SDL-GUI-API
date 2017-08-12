@@ -17,7 +17,6 @@ Label::~Label()
 	delete &text;
 	delete &fontColor;
 
-	Element::~Element();
 }
 
 void Label::RenderText() { RenderText(text); }

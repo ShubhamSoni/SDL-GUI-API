@@ -16,7 +16,7 @@ TextField::~TextField()
 {
 	SDL_DestroyTexture(backgroundTexture);
 
-	Element::~Element();
+	//Element::~Element();
 }
 
 void TextField::Update(double _time)

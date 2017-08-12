@@ -18,7 +18,7 @@ Slider::~Slider()
 {
 	SDL_DestroyTexture(slider);
 
-	Element::~Element();
+	////Element::~Element();
 }
 
 void Slider::Update(double _time)

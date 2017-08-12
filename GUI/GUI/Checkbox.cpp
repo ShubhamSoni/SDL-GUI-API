@@ -14,7 +14,7 @@ Checkbox::~Checkbox()
 	SDL_DestroyTexture(outlineTopBottom);
 	SDL_DestroyTexture(outlineLeftRight);
 
-	Element::~Element();
+	//Element::~Element();
 }
 
 void Checkbox::Update(double _time)

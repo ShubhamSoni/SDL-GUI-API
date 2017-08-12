@@ -60,5 +60,5 @@ void ScreenFader::SetColor(SDL_Color _color) {
 	SDL_DestroyTexture(fader);
 	fader = NULL;
 
-	fader = GUIHelper::SolidColourTexture(Window::Box().w, Window::Box().h, { _color.r, _color.g, _color.b, alpha });
+	fader = GUIHelper::SolidColourTexture(Window::Box().w, Window::Box().h, { _color.r, _color.g, _color.b, (Uint8)alpha });
 }
